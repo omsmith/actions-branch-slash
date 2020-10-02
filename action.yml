@@ -1,0 +1,12 @@
+name: 'example'
+description: 'example'
+author: 'omsmith'
+
+branding:
+  icon: check-square
+  color: green
+
+runs:
+  using: 'node12'
+  main: 'index.js'
+

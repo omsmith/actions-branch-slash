@@ -1,0 +1,13 @@
+name: example
+
+on:
+  pull_request:
+    
+
+jobs:
+  slash:
+    steps:
+      - uses: omsmith/actions-branch-slash@main
+  no_slash:
+    steps:
+      - uses: omsmith/actions-branch-slash@slashed/main
