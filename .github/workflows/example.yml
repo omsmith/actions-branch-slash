@@ -6,8 +6,10 @@ on:
 
 jobs:
   slash:
+    runs-on: ubuntu-latest
     steps:
       - uses: omsmith/actions-branch-slash@main
   no_slash:
+    runs-on: ubuntu-latest
     steps:
       - uses: omsmith/actions-branch-slash@slashed/main
